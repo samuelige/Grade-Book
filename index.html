@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="title">
+      <h3>Grade Book</h3>
+    </nav>
+    <div id="btnContainer">
+      <button id="assignments" class="common">Assignments</button>
+      <button id="students" class="common">Students</button>
+      <button id="grades" class="common">Grades</button>
+    </div>
+    <div id="properties">
+      <div id="assgnProperty">
+        <h3>Assignments</h3>
+        <input type="text" id="assignInput" placeholder="Add Assignment" />
+        <button id="assignBtn">Submit</button>
+        <ul id="assign-listItem"></ul>
+      </div>
+      <div id="studProperty">
+        <h3>Student Roster</h3>
+        <input type="text" id="studInput" placeholder="Add Students" />
+        <button id="studBtn">Submit</button>
+        <ul id="stud-listItem"></ul>
+      </div>
+      <div id="grades">
+        <ul id="grade-listItems"></ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
