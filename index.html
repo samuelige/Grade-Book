@@ -14,13 +14,17 @@
       <button id="assignments" class="common">Assignments</button>
       <button id="students" class="common">Students</button>
       <button id="grades" class="common">Grades</button>
+      <button id="result" class="common">Result Data</button>
     </div>
     <div id="properties">
       <div id="assgnProperty">
         <h3>Assignments</h3>
         <input type="text" id="assignInput" placeholder="Add Assignment" />
         <button id="assignBtn">Submit</button>
-        <ul id="assign-listItem"></ul>
+        <ul>
+          <li>Assignments</li>
+          <li id="assign-listItem"></li>
+        </ul>
       </div>
       <div id="studProperty">
         <h3>Student Roster</h3>
@@ -32,6 +36,14 @@
         <ul id="grade-listItems"></ul>
       </div>
     </div>
+    <table>
+      <thead>
+        <td>Assignments</td>
+        <td>Students</td>
+        <td>Grades</td>
+      </thead>
+      <tbody id="result-list"></tbody>
+    </table>
     <script src="app.js"></script>
   </body>
 </html>

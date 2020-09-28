@@ -19,3 +19,6 @@
   border-radius: 5px;
   box-shadow: grey;
 }
+ul {
+  list-style: none;
+}
